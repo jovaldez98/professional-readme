@@ -41,10 +41,54 @@ const questions = [
         name: 'tests',
         message: 'What command did you use to run tests?'
     },
+    {
+        type: 'input',
+        name: 'question',
+        message: 'Give the user information on how to contact you if they have any questions about your project:'
+    }
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+// function writeToFile(fileName, data) { 
+//     return ` # ${data.title}
+    
+//     ## DESCRIPTION
+    
+//     ${data.description}
+    
+//     ## Table OF CONTENTS
+    
+//     - [Installation](#installation)
+//     - [Usage](#usage)
+//     - [Credits](#credits)
+//     - [License](#license)
+//     - [Tests](#tests)
+//     - [Question](#question)
+    
+//     ## INSTALLATION
+    
+//     ${data.installation}
+    
+//     ## USAGE
+    
+//     ${data.usage}
+
+//     ## CREDITS
+
+//     ${data.credits}
+    
+//     ## LICENSE 
+    
+//     ${data.license}
+    
+//     ## TESTS
+    
+//     ${data.tests}
+    
+//     ## QUESTIONS
+    
+//     ${data.question}`
+// }
 
 // TODO: Create a function to initialize app
 function init() {

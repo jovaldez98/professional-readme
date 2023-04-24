@@ -24,7 +24,36 @@ function generateMarkdown(data) {
 
   ${data.description}
 
+  ## Table OF CONTENTS
+    
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  - [Tests](#tests)
+  - [Question](#question)
+  
+  ## INSTALLATION
+
+  ${data.installation}
+
+  ## USAGE
+    
+  ${data.usage}
+
+  ## CREDITS
+
+  ${data.credits}
+
   ${renderLicenseBadge(data.license)}
+
+  ## TESTS
+    
+  ${data.tests}
+  
+  ## QUESTIONS
+  
+  ${data.question}
 `;
 }
 
