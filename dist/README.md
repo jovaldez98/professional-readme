@@ -1,9 +1,9 @@
-# sdcgd
-  ![Github license](https://img.shields.io/badge/license-MIT}-blue.svg)
+# Cool generator
+  ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
 
-  sgdvcds
+  it is a very cool generator
 
   ## Table OF CONTENTS
     
@@ -16,24 +16,24 @@
   
   ## INSTALLATION
 
-  uasvcds
+  npm node, npm inquirer
 
   ## USAGE
     
-  asgvs
+  cool generator will ask questions, user answers
 
   ## CREDITS
 
-  asgv
+  none
 
   ## LICENSE
 
-  This project is license under ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
+  This project is license under MIT
 
   ## TESTS
     
-  jch
+  node
   
   ## QUESTIONS
   
-  If you have any questions about this project, please contact me directly jdsvcsd. Other of my projects are visible at https://github.com/jsbdchsd.
+  If you have any questions about this project, please contact me directly jovaldez98@gmail.com. Other of my projects are visible at https://github.com/jocevaldez98.
