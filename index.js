@@ -1,13 +1,13 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
+// Array of questions for user input
 const questions = [
     {
        type: 'input',
-       name: 'github username',
+       name: 'github',
        message: 'What is your Github username?'
     },
     {
@@ -18,12 +18,12 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What is the name if your project?'
+        message: 'What is the name if your app?'
     },
     {
         type: 'input',
         name: 'description',
-        message: 'Provide a description of your project:'
+        message: 'Provide a description of your app:'
     },
     {
         type: 'input',
@@ -33,7 +33,7 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'Provide instructions and examples for usage of your project:'
+        message: 'Provide instructions and examples for usage of your app:'
     },
     {
         type: 'input',
@@ -50,57 +50,11 @@ const questions = [
         type: 'input',
         name: 'tests',
         message: 'What command did you use to run tests?'
-    },
-    {
-        type: 'input',
-        name: 'question',
-        message: 'Give the user information on how to contact you if they have any questions about your project:'
     }
 ];
 
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) { 
-//     return ` # ${data.title}
-    
-//     ## DESCRIPTION
-    
-//     ${data.description}
-    
-//     ## Table OF CONTENTS
-    
-//     - [Installation](#installation)
-//     - [Usage](#usage)
-//     - [Credits](#credits)
-//     - [License](#license)
-//     - [Tests](#tests)
-//     - [Question](#question)
-    
-//     ## INSTALLATION
-    
-//     ${data.installation}
-    
-//     ## USAGE
-    
-//     ${data.usage}
 
-//     ## CREDITS
-
-//     ${data.credits}
-    
-//     ## LICENSE 
-    
-//     ${data.license}
-    
-//     ## TESTS
-    
-//     ${data.tests}
-    
-//     ## QUESTIONS
-    
-//     ${data.question}`
-// }
-
-// TODO: Create a function to initialize app
+// Function to initialize app
 function init() {
     inquirer
         .prompt(questions)
@@ -113,8 +67,9 @@ function init() {
                 console.log('README generated successfully...');
             })
             console.log(generateMarkdown(answers));
-        })
+        });
 }
+
 
 // Function call to initialize app
 init();
