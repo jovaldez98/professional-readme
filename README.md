@@ -11,9 +11,9 @@ A professional README generator was created using command line node.js and inqui
 - Node
 
 
-## Usage video link
+## Usage
 
-https://drive.google.com/file/d/1EeSCFuBKlmjZe2FBZ2GezULw6OdHPciz/view
+[readme.webm](https://user-images.githubusercontent.com/125123860/234208007-da77170f-9321-4909-a969-c23e66af38b7.webm)
 
 ## Credits
 
